@@ -113,6 +113,7 @@ public class ReadActivity extends AppCompatActivity implements ReadAdapter.Liste
         editor.commit();
         Intent intent = new Intent(ReadActivity.this, ProfileActivity.class);
         startActivity(intent);
+        finish();
     }
 
     @Override
