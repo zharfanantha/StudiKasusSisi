@@ -50,6 +50,7 @@
                 android:id="@+id/create_noKtp"
                 android:padding="10dp"
                 android:inputType="number"
+                android:background="@drawable/card_background"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:maxLines="1"/>
@@ -79,7 +80,8 @@
                 android:inputType="text"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:maxLines="1"/>
+                android:maxLines="1"
+                android:background="@drawable/card_background"/>
 
         </LinearLayout>
 
@@ -127,7 +129,8 @@
                 android:id="@+id/create_tglLahir"
                 android:padding="10dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"/>
+                android:layout_marginRight="10dp"
+                android:background="@drawable/card_background"/>
         </LinearLayout>
 
         <LinearLayout
@@ -154,7 +157,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_gravity="top"
-                android:inputType="text"/>
+                android:inputType="text"
+                android:background="@drawable/card_background"/>
         </LinearLayout>
 
         <LinearLayout
@@ -233,6 +237,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentLeft="true"
                 android:text="Save"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimaryDark"
                 android:layout_below="@+id/create_error" />
 
         </RelativeLayout>
